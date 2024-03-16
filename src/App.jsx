@@ -1,7 +1,7 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
-import Recipe from "./components/Recipe/Recipe";
+import Recipes from "./components/Recipes/Recipes";
 import RecipeHeader from "./components/RecipeHeader/RecipeHeader";
 import SideBar from "./components/SideBar/SideBar";
 
@@ -12,7 +12,7 @@ function App() {
       <Banner></Banner>
       <RecipeHeader></RecipeHeader>
       <div className="flex justify-between container mx-auto">
-        <Recipe></Recipe>
+        <Recipes></Recipes>
         <SideBar></SideBar>
       </div>
     </>

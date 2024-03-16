@@ -65,11 +65,11 @@ const Navbar = () => {
           </div>
           <div className="navbar-end text-lg">
             <label className="input input-bordered flex items-center gap-2 rounded-full mr-4">
-              <img src="../../../../public/search.png" alt="" />
+              <img src="./search.png" alt="" />
               <input type="text" className="grow" placeholder="Search" />
             </label>
             <button className="btn btn-circle bg-green-400">
-              <img src="../../../../public/Frame.png" alt="" />
+              <img src="./Frame.png" alt="" />
             </button>
           </div>
         </div>

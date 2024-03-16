@@ -12,7 +12,7 @@
       "200 ml heavy cream"
     ],
     "time": 25,
-    "calories": 380
+    "calorie": 380
   },
   {
     "image": "https://i.ibb.co/xMNTdLz/recipe-6.jpg",
@@ -26,7 +26,7 @@
       "2 tsp garlic powder"
     ],
     "time": 35,
-    "calories": 290
+    "calorie": 290
   },
   {
     "image": "https://i.ibb.co/YT4WZRj/recipe-5.jpg",
@@ -35,7 +35,7 @@
     "description": "Colorful medley of fresh vegetables stir-fried to perfection with a savory sauce.",
     "ingredients": ["200 g broccoli", "150 g bell peppers", "150 g snap peas"],
     "time": 20,
-    "calories": 220
+    "calorie": 220
   },
   {
     "image": "https://i.ibb.co/m4Lxqnh/recipe-4.jpg",
@@ -50,7 +50,7 @@
       "2 cloves garlic"
     ],
     "time": 40,
-    "calories": 290
+    "calorie": 290
   },
   {
     "image": "https://i.ibb.co/Y3Y0Dxk/recipe-3.jpg",
@@ -65,7 +65,7 @@
       "Ice cubes"
     ],
     "time": 10,
-    "calories": 180
+    "calorie": 180
   },
   {
     "image": "https://i.ibb.co/cx5w878/recipe-2.jpg",
@@ -79,6 +79,6 @@
       "1 avocado"
     ],
     "time": 30,
-    "calories": 350
+    "calorie": 350
   }
 ]

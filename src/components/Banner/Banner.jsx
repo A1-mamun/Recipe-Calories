@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div className="container mx-auto text-white font-lexend mt-8">
-      <div className="hero  h-[240px] md:h-[400px] lg:h-[660px] bg-[url('../../../../public/banner.jpeg')] rounded-3xl">
+      <div className="hero  h-[240px] md:h-[400px] lg:h-[660px] bg-[url('./banner.jpeg')] rounded-3xl">
         <div className="flex justify-center items-center  bg-gradient-to-t from-[#150B2BE5] to-[#150B2B00] w-full h-full rounded-3xl">
           <div className="text-center">
             <h1 className="mb-2 md:mb-5 lg:mb-8 text-2xl md:text-4xl lg:text-7xl font-semibold text-white">

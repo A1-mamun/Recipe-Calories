@@ -8,9 +8,10 @@ const Banner = () => {
               Discover an exceptional cooking <br /> class tailored for you!
             </h1>
             <p className="mb-3 md:mb-5 lg:mb-8 text-xs md:text-base lg:text-lg font-inter  w-11/12 md:w-10/12">
-              Learn and Master Basic Programming, Data Structures, Algorithm,
-              OOP, Database and solve 500+ coding problems to become an
-              exceptionally well world-class Programmer.
+              Discover delicious recipes with calorie counts to help you stay on
+              track! From savory mains to guilt-free desserts, find flavorful
+              dishes that fit your lifestyle. Explore our collection now for
+              nutritious meals without compromising on taste or satisfaction.
             </p>
             <div className=" flex flex-col md:flex-row gap-3">
               <button className="btn btn-sm md:btn-md lg:btn-lg rounded-full bg-color-success border-0 text-base md:text-lg lg:text-xl text-dark font-semibold">

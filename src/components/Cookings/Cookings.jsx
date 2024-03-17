@@ -10,9 +10,9 @@ const Cookings = ({ cookings, times, calories }) => {
       <hr className="w-3/4 mx-auto" />
 
       <div className="overflow-x-auto mt-3 mb-6">
-        <table className="table table-zebra font-fira text-base">
+        <table className="table table-zebra font-fira ">
           {/* head */}
-          <thead className=" text-base font-medium">
+          <thead className="text-sm md:text-base font-medium">
             <tr>
               <th></th>
               <th>Name</th>
@@ -20,7 +20,7 @@ const Cookings = ({ cookings, times, calories }) => {
               <th>Calories</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-xs md:text-base">
             {cookings.map((cooking, idx) => (
               <Cooking key={idx} idx={idx + 1} cooking={cooking}></Cooking>
             ))}

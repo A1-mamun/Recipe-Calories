@@ -10,7 +10,7 @@ const Cook = ({ cook, idx, handlePreparing }) => {
       <td>
         <button
           onClick={() => handlePreparing(cook)}
-          className="btn bg-green-500 btn-sm rounded-full font-lexend font-medium"
+          className="btn bg-green-500 btn-xs md:btn-sm rounded-full font-lexend font-medium"
         >
           Preparing
         </button>

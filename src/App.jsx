@@ -27,7 +27,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <RecipeHeader></RecipeHeader>
-      <div className="hidden flex justify-between container mx-auto">
+      <div className="flex flex-col lg:flex-row justify-between gap-6 container mx-auto px-3 md:px-5 lg:px-2 mb-4 md:mb-8">
         <Recipes handleCook={handleCook}></Recipes>
         <ToastContainer />
         <SideBar cooks={cooks} setCooks={setCooks}></SideBar>

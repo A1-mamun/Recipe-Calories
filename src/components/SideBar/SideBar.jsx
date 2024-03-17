@@ -17,7 +17,7 @@ const SideBar = ({ cooks, setCooks }) => {
   };
   // console.log(cookings);
   return (
-    <div className="w-2/5 border-2 rounded-2xl p-5 text-center">
+    <div className="w-full lg:w-2/5 border-2 rounded-2xl p-1 md:p-5 text-center">
       <Cooks cooks={cooks} handlePreparing={handlePreparing}></Cooks>
       <Cookings
         cookings={cookings}

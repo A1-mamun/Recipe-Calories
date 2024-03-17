@@ -43,14 +43,14 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-2xl md:text-4xl font-extrabold">
+            <a className="btn btn-ghost text-2xl md:text-4xl font-extrabold text-dark">
               Recipe Calories
             </a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal text-lg text-[#424247] font-bold px-1">
+            <ul className="menu menu-horizontal text-lg text-[#424247] px-1 text-dark-70">
               <li>
-                <a className="text-color-primary">Home</a>
+                <a className="text-color-success">Home</a>
               </li>
               <li>
                 <a>Recipes</a>
@@ -64,10 +64,16 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end text-lg">
-            <label className="input input-bordered flex items-center gap-2 rounded-full mr-4">
-              <img src="./search.png" alt="" />
-              <input type="text" className="grow" placeholder="Search" />
-            </label>
+            <div className="hidden md:block ">
+              <label className="input input-bordered flex items-center gap-2 rounded-full mr-2 md:mr-4 w-56 ">
+                <img src="./search.png" alt="" />
+                <input
+                  type="text"
+                  className="grow text-dark-70"
+                  placeholder="Search"
+                />
+              </label>
+            </div>
             <button className="btn btn-circle bg-green-400">
               <img src="./Frame.png" alt="" />
             </button>

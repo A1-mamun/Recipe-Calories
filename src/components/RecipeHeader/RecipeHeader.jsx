@@ -1,6 +1,6 @@
 const RecipeHeader = () => {
   return (
-    <div className="container mx-auto font-lexend text-center my-20">
+    <div className=" hidden container mx-auto font-lexend text-center my-20">
       <h1 className="text-5xl font-semibold mb-5">Our Recipes</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus

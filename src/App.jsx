@@ -27,9 +27,10 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <RecipeHeader></RecipeHeader>
-      <div className="flex justify-between container mx-auto">
+      <div className="hidden flex justify-between container mx-auto">
         <Recipes handleCook={handleCook}></Recipes>
-        <ToastContainer />;<SideBar cooks={cooks} setCooks={setCooks}></SideBar>
+        <ToastContainer />
+        <SideBar cooks={cooks} setCooks={setCooks}></SideBar>
       </div>
     </>
   );

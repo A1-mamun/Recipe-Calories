@@ -1,7 +1,10 @@
 const Banner = () => {
   return (
     <div className="container mx-auto text-white font-lexend mt-8 px-3 md:px-5 lg:px-2">
-      <div className="hero h-full md:h-[400px] lg:h-[660px] bg-[url('./banner.jpeg')] rounded-3xl">
+      <div
+        className="hero h-full md:h-[400px] lg:h-[660px] rounded-3xl"
+        style={{ backgroundImage: `url('./banner.png')` }}
+      >
         <div className="flex justify-center items-center  bg-gradient-to-t from-[#150B2BE5] to-[#150B2B00] w-full h-full rounded-3xl">
           <div className="text-center flex flex-col items-center pt-5 pb-3 px-2">
             <h1 className="mb-2 md:mb-5 lg:mb-8 text-2xl md:text-4xl lg:text-7xl font-semibold text-white">
@@ -29,3 +32,4 @@ const Banner = () => {
 };
 
 export default Banner;
+<img src="" alt="" />;
